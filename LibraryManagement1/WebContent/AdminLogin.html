@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<div class="loginBox">
+ <img src="image/admin.png" class="user">
+ <h2>Admin Login</h2>
+<form action="http://localhost:8080/LibraryManagement1/adminlogin" method="post">
+<p>AdminId</p>
+<input type="number" name="aid" required placeholder="enter the AdminId">
+
+<p>Password</p>
+<input type="password" name="pass" required  placeholder="enter the password">
+
+<input type="submit" value="submit">
+
+<a href="CreateAdmin.jsp">New Admin</a>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,160 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+#container
+{
+	width: 100%;
+	height: 450px;
+	
+	
+}
+#header
+{
+	width: 100%;
+	height: 100px;
+	background: -webkit-radial-gradient(50% 50%,white,#3EA99F,#7D0552);
+}
+#header p
+{
+	
+	font-family: 'Pacifico', cursive;
+	font-size: 30px;
+	margin-left: 80px;
+	padding-top: 30px;
+	color: white;
+}
+#menu
+{
+	font-family: 'Pacifico', cursive;
+	width: 100%;
+	height: 40px;
+	background: -webkit-radial-gradient(50% 50%,circle,pink,#3EA99F,#6AA121,#F88017);
+	
+}
+#menu ul
+{
+list-style:none;
+
+}
+#menu  ul li
+{
+float:left;
+padding:7px 50px;
+}
+#menu  ul li a
+{
+text-decoration:none;
+color:black;
+font-size:19px;
+padding:7px 10px;
+}
+#menu  ul li a:hover
+{
+border-radius:0px;
+background: -webkit-radial-gradient(50% 50%,#6AA121,#C12267);
+color:white;
+}
+#section
+{
+	font-family: 'Pacifico', cursive;
+	width: 100%;
+	height:350px;
+	background: -webkit-radial-gradient(50% 50%,#C12283,#3EA99F,#F88017);
+	
+}
+#section h2
+{
+	padding:20px 40px;
+	color:white;
+}
+#section h4
+{
+	padding:10px 40px;
+	color:white;
+}
+#section h3
+{
+	padding:15px 40px;
+	color:red;
+}
+#menu1 ul
+{
+list-style:none;
+
+}
+#menu1  ul li
+{
+float:left;
+padding:0px 30px;
+}
+#menu1  ul li a
+{
+font-family: Arial Black;
+text-decoration:none;
+color:#0020C2;
+font-size:17px;
+padding:0px 30px;
+}
+#menu1 ul li a:hover
+{
+border-bottom:2px solid grey;
+color:white;
+}
+#footer
+{
+width: 100%;
+	height: 30px;
+	background: -webkit-radial-gradient(50% 50%,circle,#C12283,#3EA99F,#6A287E,#F88017);
+	padding-top: 20px;
+}
+#updatepass
+{
+width:100%;
+height:550px;
+margin-left: -40px;
+margin-top: 20px;
+}
+.f5
+{
+width:190px;
+height:25px;
+margin-top:2px;
+margin-left:20px;
+border-radius: 5px;
+}
+.f2
+{
+width:60px;
+height:23px;
+background:black;
+border-radius:10px;
+color:white;
+font-size:15px;
+margin-left: 34px;
+margin-top:4px;
+}
+.f3
+{
+width:60px;
+height:25px;
+background:green;
+color:white;
+font-size:15px;
+margin-left: 4px;
+margin-top:4px;
+}
+.f4
+{
+width:60px;
+height:23px;
+background:black;
+border-radius:10px;
+color:white;
+font-size:15px;
+margin-left: 29px;
+margin-top:4px;
+}
+

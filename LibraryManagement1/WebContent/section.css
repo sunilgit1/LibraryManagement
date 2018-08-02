@@ -1,0 +1,48 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+#container
+{
+	width: 100%;
+	height: auto;
+	background: red;
+}
+#header
+{
+	width: 100%;
+	height: 90px;
+    background: -webkit-radial-gradient(50% 50%,white,#3EA99F,#7D0552);
+
+}
+#header p
+{
+	
+	font-family:'Pacifico', cursive;
+	font-size: 30px;
+	margin-left: 80px;
+	padding-top: 30px;
+	color: #800080;
+}
+#menu
+{
+	font-family:Arial Black;;
+	width: 100%;
+	height: 400px;
+	background: -webkit-radial-gradient(50% 50%,circle,#C12283,#3EA99F,#6A287E,#F88017);
+	
+}
+#menu table
+{
+	margin-left: 170px;
+	
+		padding-top: 10px;
+	}
+#menu   tr td
+{
+	padding-left:50px;
+	padding-top: 10px;
+		
+	}

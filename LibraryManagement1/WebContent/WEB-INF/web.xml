@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>LibraryManagement1</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <!--  for Librarian  -->
+  <servlet>
+     <servlet-name>Allotbook</servlet-name>
+     <servlet-class>com.controller.AllotBook</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>Allotbook</servlet-name>
+     <url-pattern>/allotbook</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>bookallotview</servlet-name>
+     <servlet-class>com.view.BookAllot</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>bookallotview</servlet-name>
+     <url-pattern>/bookallotview</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+     <servlet-name>liblogin</servlet-name>
+     <servlet-class>com.controller.LibLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>liblogin</servlet-name>
+     <url-pattern>/liblogin</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+     <servlet-name>errresp</servlet-name>
+     <servlet-class>com.controller.ErrResp</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>errresp</servlet-name>
+     <url-pattern>/errresp</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+     <servlet-name>addbook</servlet-name>
+     <servlet-class>com.controller.AddBook</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>addbook</servlet-name>
+     <url-pattern>/addbook</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+     <servlet-name>addbookview</servlet-name>
+     <servlet-class>com.view.BookAdd</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>addbookview</servlet-name>
+     <url-pattern>/addbookview</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>returnbook</servlet-name>
+     <servlet-class>com.controller.ReturnBook</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>returnbook</servlet-name>
+     <url-pattern>/returnbook</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>returnbookview</servlet-name>
+     <servlet-class>com.view.ReturnBookView</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>returnbookview</servlet-name>
+     <url-pattern>/returnbookview</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>bookalloted</servlet-name>
+     <servlet-class>com.controller.AllotedBook</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>bookalloted</servlet-name>
+     <url-pattern>/bookalloted</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+     <servlet-name>logout</servlet-name>
+     <servlet-class>com.controller.LogOut</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>logout</servlet-name>
+     <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+     <servlet-name>taken</servlet-name>
+     <servlet-class>com.controller.BookTaken</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>taken</servlet-name>
+     <url-pattern>/taken</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>createprofile</servlet-name>
+     <servlet-class>com.controller.CreateLib</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>createprofile</servlet-name>
+     <url-pattern>/createprofile</url-pattern>
+  </servlet-mapping>
+  
+  <!--  for Admin  -->
+  <servlet>
+     <servlet-name>adduser</servlet-name>
+     <servlet-class>com.controller.AddUser</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>adduser</servlet-name>
+     <url-pattern>/adduser</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>useraddview</servlet-name>
+     <servlet-class>com.view.UserAdd</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>useraddview</servlet-name>
+     <url-pattern>/useraddview</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>searchstudent</servlet-name>
+     <servlet-class>com.controller.SearchStudent</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>searchstudent</servlet-name>
+     <url-pattern>/searchstudent</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>adminlogin</servlet-name>
+     <servlet-class>com.controller.AdminLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>adminlogin</servlet-name>
+     <url-pattern>/adminlogin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>adminlogout</servlet-name>
+     <servlet-class>com.controller.AdminLogOut</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>adminlogout</servlet-name>
+     <url-pattern>/adminlogout</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>viewuser</servlet-name>
+     <servlet-class>com.controller.ViewUser</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>viewuser</servlet-name>
+     <url-pattern>/viewuser</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+     <servlet-name>errrespadmin</servlet-name>
+     <servlet-class>com.controller.ErrRespAdmin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>errrespadmin</servlet-name>
+     <url-pattern>/errrespadmin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>createadmin</servlet-name>
+     <servlet-class>com.controller.CreateAdmin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>createadmin</servlet-name>
+     <url-pattern>/createadmin</url-pattern>
+  </servlet-mapping>
+  
+   <!--  for User  -->
+   
+   <servlet>
+     <servlet-name>searchbook</servlet-name>
+     <servlet-class>com.controller.SearchBook</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>searchbook</servlet-name>
+     <url-pattern>/searchbook</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>errresplib</servlet-name>
+     <servlet-class>com.controller.ErrRespLib</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>errresplib</servlet-name>
+     <url-pattern>/errresplib</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>updatepass</servlet-name>
+     <servlet-class>com.controller.UpdatePass</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>updatepass</servlet-name>
+     <url-pattern>/updatepass</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>userlogout</servlet-name>
+     <servlet-class>com.controller.UserLogOut</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>userlogout</servlet-name>
+     <url-pattern>/userlogout</url-pattern>
+  </servlet-mapping>
+   
+    <servlet>
+     <servlet-name>userlogin</servlet-name>
+     <servlet-class>com.controller.UserLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>userlogin</servlet-name>
+     <url-pattern>/userlogin</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+     <servlet-name>section</servlet-name>
+     <servlet-class>com.controller.Section</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>section</servlet-name>
+     <url-pattern>/Section</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>homepage</servlet-name>
+     <servlet-class>com.controller.HomePage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>homepage</servlet-name>
+     <url-pattern>/homepage</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>loginhtml</servlet-name>
+     <servlet-class>com.controller.LogInHtml</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>loginhtml</servlet-name>
+     <url-pattern>/loginhtml</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
